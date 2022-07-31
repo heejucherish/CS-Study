@@ -30,7 +30,7 @@
 
 #### :white_check_mark: 개발상식
 
-- 좋은 코드란 무엇인가?
+- [좋은 코드란 무엇인가?](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EC%A2%8B%EC%9D%80%20%EC%BD%94%EB%93%9C.md)
 
 - [객체 지향 프로그래밍이란 무엇인가?](https://github.com/heejucherish/CS-Study/blob/master/Ujin/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP).md)
 
