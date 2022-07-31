@@ -1,10 +1,3 @@
-업로드 시 삭제
-
-- 웹, 알고리즘 후 dJango 때(3달 후) 개념 학습
-- REpresentational 묘사작(구상주의적인, 구상파의) 저도 잘 모름
-- State 상태
-- Transfer 이동(옮김)
-
 # REST[ful] API
 
 - REST 아키텍처 스타일의 디자인 원칙(제약 조건)을 준수하는 API입니다.
