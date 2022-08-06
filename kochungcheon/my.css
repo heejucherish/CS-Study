@@ -1,0 +1,18 @@
+  <style>
+    .large-box {
+      width: 400px;
+      border-width: 2px;
+      border-color: black;
+    }
+    .medium-box {
+      width: 200px;
+      border-width: 2px;
+      border-color: red;
+    }
+    .small-box {
+      width: 100;
+      border-width: 2px;
+      border-color: blue;
+    }
+  </style>
+
