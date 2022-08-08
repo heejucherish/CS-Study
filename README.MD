@@ -39,17 +39,17 @@
 
 - [TDD 정의 및 장점은?](https://github.com/heejucherish/CS-Study/blob/master/heeju/TDD.md)
 
-- 함수형 프로그래밍이란?
+- 함수형 프로그래밍이란?(https://github.com/heejucherish/CS-Study/blob/master/heeju/%ED%95%A8%EC%88%98%ED%98%95_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 
 - MVC 패턴이란 무엇인가?
 
-- GIT과 GITHub에 대해서
+- GIT과 GITHub에 대해서(https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Git_GitHub.md)
 
 #### :white_check_mark: 자료구조
 
 - Array vs Linked List
 
-- Stack and Queue
+- Stack and Queue(https://github.com/heejucherish/CS-Study/blob/master/HanKyul/Stack%20%26%20Queue.md)
 
 - Tree
   
