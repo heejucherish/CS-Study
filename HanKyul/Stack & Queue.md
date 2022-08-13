@@ -168,7 +168,7 @@
       rear = 0
       # Data를 peek, 즉 열람할 수 있는 함수
       def peek():
-          if stack is not isEmpty():
+          if queue is not isEmpty():
               return queue[front]
           else:
               return -1
@@ -177,13 +177,14 @@
       
       def enqueue(data):
           if not isFull():
-              stack[rear] = data
               rear += 1
+              stack[rear] = data
+              
       
         # 데이터를 꺼내는 함수
       def dequeue():
           item = -1
-          if stack is not isEmpty():
+          if queue is not isEmpty():
               item = queue[front]
               front += 1
           return item
