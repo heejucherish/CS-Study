@@ -43,12 +43,10 @@
 
 - MVC 패턴이란 무엇인가?
 
-<<<<<<< HEAD
 - [GIT과 GITHub에 대해서](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Git_GitHub.md)
 
-=======
-- GIT과 GITHub에 대해서
->>>>>>> 88ae1c991402e97ab7fa21dfa8f7fa718ab8a2e6
+  
+
 #### :white_check_mark: 자료구조
 
 - Array vs Linked List
