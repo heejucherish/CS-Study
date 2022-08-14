@@ -1,6 +1,6 @@
-# Full Binary Tree
+# Full Binary Tree ( 정 이진 트리 )
 
-  <img src="Full%20Binary%20Tree_assets/2022-08-13-22-37-48-image.png" title="" alt="" width="487"> 
+  <img title="" src="Full%20Binary%20Tree_assets/2022-08-13-22-37-48-image.png" alt="" width="630"> 
 
 * Full Binary Tree는 leaf 노드 제외한 모든 노드들이 2개의 자식을 가지는 Binary Tree
 
@@ -21,8 +21,6 @@
      * 2i + 1   [1-2] 
      
      * 2l - 1    [1-5]
-     
-     * 
   
   3. internal nodes 개수 (보라색)
      
@@ -33,3 +31,13 @@
   4. 최대 nodes 개수
      
      * 2^h - 1     [2]
+
+# Perfect Binary Tree ( 포화 이진 트리 )
+
+<img title="" src="https://t1.daumcdn.net/cfile/tistory/2153514657BBF9B428" alt="자료구조 - 트리란?" width="696">
+
+* 모든 레벨의 노드가 가득 차있는 트리
+
+* 노드가 2개의 자식을 가짐
+
+* nodes 총 개수 = 2^h - 1
