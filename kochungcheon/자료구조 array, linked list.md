@@ -20,7 +20,7 @@
 
 - python list 는 서로 다른 자료형도 저장할 수 있다.
 
-- python list는 동적 배열, array는 정적 배열
+- python list는 <mark>동적 배열</mark>, array는 <mark>정적 배열</mark>
   
   - 동적 배열 : 배열의 크기를 바꿀수 있음 즉 값을 추가, 삭제 할 수 있음
   
@@ -42,13 +42,15 @@
 
 - 개별 값들이 노드를 이룸
   
+  - 노드란 데이터를 보관하는곳. 자료구조에서 관리하고 있는 정보 중 하나를 저장하는 단위.
+  
   - 자신이 가지고 있는 값
   
   - 다음 노드를 가리키는 포인터
   
   - 첫 번째 값을 가지고 있는 노드를 head node라고 함
 
-- 동적 메모리
+- 동적 메모리 할당
   
   - 새로운 노드 삽입, 삭제 용이
 
@@ -70,9 +72,10 @@
   
   ```python
   #노드 구현
-  class Node(self, data):
-      self.data = data
-      self.next = None
+  class Node:
+      def __int__(self, data):
+          self.data = data
+          self.next = None
   
   # 링크드 리스트 구현
   class linked_list:
