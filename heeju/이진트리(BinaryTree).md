@@ -17,7 +17,7 @@
   - step3 : 찾는 원소가 더 크므로 오른쪽 방문 
   - step4 : 찾는 원소를 발견하면 탐색 종료
 
-![binary_search_tree](C:\Users\heeju\Desktop\ssafy8\CS-Study\heeju\img\binary_search_tree.png)
+![binary_search_tree](./img/binary_search_tree.png)
 
 - 이 경우 탐색 과정에서 탐색 범위가 이상적인 경우 절반 가까이 줄어들게 된다. 왼쪽 노드 부분은 볼 필요가 없기 때문!
 
@@ -61,7 +61,7 @@
 
 > 예시
 
-![순회방식](이진 탐색 트리(Binary Search Tree).assets/순회방식.png)
+![순회방식](./img/순회방식.png)
 
 - 전위 순회 : 1 - 2 - 4 - 8- 9 -5 - 10 - 11- 3 - 6 - 12 -13 - 7 - 14 - 15
 
@@ -74,7 +74,7 @@
 - 중위순회: DBAECFG / 왼쪽자식-부모노드-오른쪽자식
 - 후위순회: DBEGFCA /왼쪽자식-오른쪽자식-루트
 
-![boj_1991](이진 탐색 트리(Binary Search Tree).assets/boj_1991.png)
+![boj_1991](./img/boj_1991.png)
 
 ```python
 '''

@@ -6,18 +6,6 @@
 
 ### :baby_chick: 스터디원
 
-<<<<<<< HEAD
-| 이름  | GitHub |
-|:---:|:------:|
-| 권유진 |        |
-| 김진욱 |        |
-| 고청천 |        |
-| 박희주 |        |
-
-- 권유진, 박희주, 김진욱, 고청천
-
-##### 스터디 시간 및 방법
-=======
 |  이름  |                            GitHub                            |
 | :----: | :----------------------------------------------------------: |
 | 권유진 |           [@Ujinkwon](https://github.com/Ujinkwon)           |
@@ -29,14 +17,13 @@
 
 
 ### :deciduous_tree: Rule
->>>>>>> 31866c8eddb4bb34ee8a5f5ee525ad0072318a91
+- 스터디 시간 및 방법
+  - 스터디 시간: 매주 일요일 10시 
+  - 각자 1주에 1개씩 맡는다 
+  - 다른사람에게 공부한 cs를 설명하는 시간을 가진다 :마크다운 활용
+    - 각자 발표 시간 10분내외 및 질의응답
+    - git commit은 스터디 당일까지
 
-- 스터디 시간: 매주 일요일 10시 
-- 각자 1주에 1개씩 맡는다 
-- 다른사람에게 공부한 cs를 설명하는 시간을 가진다 :마크다운 활용
-  
-  - 각자 발표 시간 10분내외 및 질의응답
-  - git commit은 스터디 당일까지
 
 ---
 
@@ -54,7 +41,7 @@
 
 - [함수형 프로그래밍이란?](https://github.com/heejucherish/CS-Study/blob/master/heeju/%ED%95%A8%EC%88%98%ED%98%95_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 
-- MVC 패턴이란 무엇인가?
+- [MVC 패턴이란 무엇인가?](https://github.com/heejucherish/CS-Study/blob/master/Ujin/MVC%20Pattern.md)
 
 - [GIT과 GITHub에 대해서](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Git_GitHub.md)
 
@@ -62,20 +49,19 @@
 
 #### :white_check_mark: 자료구조
 
-- Array vs Linked List
+- [Array vs Linked List](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20array%2C%20linked%20list.md)
 
 - [Stack and Queue](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/Stack%20%26%20Queue.md)
 
-- Tree
-  
+- [Tree](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Tree.md)
   - Binary Tree
   
-  - Full Binary Tree
+  - [Full Binary Tree](https://github.com/heejucherish/CS-Study/blob/master/Ujin/Full%20Binary%20Tree.md)
   
-  - Complete Binary Tree
+  - [Complete Binary Tree](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/Complete%20Binary%20Tree.md)
   
-  - BST (Binary Search Tree)
-
+  - [BST (Binary Search Tree)](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)
+  
 - Binary Heap
 
 - Red-Black Tree
