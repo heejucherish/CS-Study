@@ -10,7 +10,7 @@
   
   쌓다[포개다]; 쌓이다, 포개지다
 
-* #### 컴퓨터 과학에서의 [의미]([Stack (abstract data type) - Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)))
+* #### 컴퓨터 과학에서의 [의미](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
   
   **"컴퓨터 과학에서 stack은 요소(데이터)를 다루며, Push & Pop이라는 두 가지의 동작을 수행하는 추상적 데이터 구조입니다."**
 
@@ -20,7 +20,7 @@
   
   * 잘 이해가 안되면 프링글스를 떠올립시다
   
-  * <img src="file:///C:/SSAFY/CS_Study/CS-Study/HanKyul/IMG_STACK_QUEUE/pringles6_434.jpg" title="" alt="pringles" width="276">
+  * <img src="./IMG_STACK_QUEUE/pringles6_434.jpg" title="" alt="pringles" width="276">
     
     * 프링글스는 생산될 때 가장 마지막에 넣어진 조각을
     
@@ -38,7 +38,7 @@
   
   * 먼저 그림을 보면서..
     
-    * ![stack](C:\SSAFY\CS_Study\CS-Study\HanKyul\IMG_STACK_QUEUE\stack_push_operation.jpg)
+    * <img src="./IMG_STACK_QUEUE/stack_push_operation.jpg" title="" alt="push" width="276">
     * <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/pop-up-300x200.png" title="" alt="Stack in Python | What is Python Stack and how to Implement it | Edureka" width="399">
   
   * 배열을 활용한 구현   
@@ -133,13 +133,13 @@
   
   * (서는)줄
 
-* #### 컴퓨터 과학에서의 [의미]([Queue (abstract data type) - Wikipedia](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)))
+* #### 컴퓨터 과학에서의 [의미](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
   
   * **"Queue는 한 쪽 끝에서 데이터를 추가하고, 다른 끝에서 데이터를 제거하는 동작으로 관리되는 데이터의 모음을 말합니다."**
 
 * #### 이게 무슨 뜻인가요?
   
-  * <img src="file:///C:/SSAFY/CS_Study/CS-Study/HanKyul/IMG_STACK_QUEUE/2506923E561B006C01.jpg" title="" alt="T-Express" width="368">
+  * <img src="./IMG_STACK_QUEUE/2506923E561B006C01.jpg" title="" alt="T-Express" width="368">
     
     * T-익스프레스를 타기 위한 줄
   
@@ -155,9 +155,9 @@
   
   * 역시 먼저 그림을 보면서....
     
-    * ![enque](C:\SSAFY\CS_Study\CS-Study\HanKyul\IMG_STACK_QUEUE\queue_enqueue_diagram.jpg)
+    * <img src=".\IMG_STACK_QUEUE\queue_enqueue_diagram.jpg" title="" alt="Enque" width="368">
     
-    * ![deque](C:\SSAFY\CS_Study\CS-Study\HanKyul\IMG_STACK_QUEUE\queue_dequeue_diagram.jpg)
+    * <img src=".\IMG_STACK_QUEUE\queue_dequeue_diagram.jpg" title="" alt="Deque" width="368">
   
   * 배열을 활용한 구현
     
@@ -168,7 +168,7 @@
       rear = 0
       # Data를 peek, 즉 열람할 수 있는 함수
       def peek():
-          if stack is not isEmpty():
+          if queue is not isEmpty():
               return queue[front]
           else:
               return -1
@@ -177,13 +177,14 @@
       
       def enqueue(data):
           if not isFull():
-              stack[rear] = data
               rear += 1
+              stack[rear] = data
+              
       
         # 데이터를 꺼내는 함수
       def dequeue():
           item = -1
-          if stack is not isEmpty():
+          if queue is not isEmpty():
               item = queue[front]
               front += 1
           return item
