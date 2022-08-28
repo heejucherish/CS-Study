@@ -10,13 +10,13 @@
 
 **Hash Table 해시 테이블**
 
-hash function 해시 함수 $h$ 를 사용하여 키 $k$ 를 $T[h(k)]$ 에 저장
+hash function 해시 함수 `h` 를 사용하여 키 `k` 를 `T[h(k)]` 에 저장
 
-- $ h : U \to \lbrace {0, 1, \ldots, TableSize -1} \rbrace $
+- `h : U → ({0, 1, ..., TableSize -1})`
 
-  여기서 $U$ 는 모든 가능한 키들의 집합
+  여기서 `U` 는 모든 가능한 키들의 집합
 
-- 키 $k$ 가 $h(k)$ 로 해싱되었다고 말함.
+- 키 `k` 가 `h(k)` 로 해싱되었다고 말함.
 
 해시테이블은 일반적으로 하나의 배열
 
@@ -27,12 +27,12 @@ hash function 해시 함수 $h$ 를 사용하여 키 $k$ 를 $T[h(k)]$ 에 저�
 - Hash table의 한 주소를 놓고 두 개 이상의 원소가 자리를 다투는 것
   - Hashing을 해서 삽입하려 했으나 이미 다른 원소가 자리를 차지하고 있는 상황
 
-- 즉, 서로 다른 두 키 $k_1$ 과 $k_2$ 에 대해서 $h(k_1)=h(k_2)$ 인 상황
-- 일반적으로 $|U| >> TableSize$ 이므로 항상 발생 가능 (즉 일대일 함수가 아님)
+- 즉, 서로 다른 두 키 `k_1` 과 `k_2` 에 대해서 `h(k_1)=h(k_2)` 인 상황
+- 일반적으로 `|U| >> TableSize` 이므로 항상 발생 가능 (즉 일대일 함수가 아님)
   - 여기서 $U$ 는 모든 가능한 키들의 집합
 
-- 만약 $|K|>TableSize$ 라면 당연히 발생
-  - 여기서 K는 실제로 저장된 키들의 집합
+- 만약 `|K|>TableSize` 라면 당연히 발생
+  - 여기서 `K` 는 실제로 저장된 키들의 집합
 
 
 
@@ -70,11 +70,11 @@ hash function 해시 함수 $h$ 를 사용하여 키 $k$ 를 $T[h(k)]$ 에 저�
 
 충돌이 일어나면 그 다음 빈 곳
 
-$T[h(KEY)]$ 가 점유되어 있을 때, $T[h(KEY) + 1],\;T[h(KEY) + 2],\; \ldots$ 의 순서로 빈 곳이 있을 때까지 찾아감.
+`T[h(KEY)]` 가 점유되어 있을 때, `T[h(KEY) + 1], T[h(KEY) + 2], ...` 의 순서로 빈 곳이 있을 때까지 찾아감.
 
 배열의 끝을 만나면 다시 처음으로 되돌아와서 거기서부터 빈자리를 찾음
 
-$h(key) = h\;\%\;Prime Number$
+`h(key) = h % Prime Number`
 
 ##### a. 선형 검색 기법의 최대 단점
 
@@ -99,29 +99,31 @@ $h(key) = h\;\%\;Prime Number$
 ##### c. 부하율 : 해시 테이블의 부담
 
 $$
-Load\,Factor\,부하율\,Lambda\, λ \, = \, \frac { 레코드 \, 개수 \, N } { 테이블 \, 크기 \, M }
+Load Factor\quad 부하율\quad Lambda\quad λ\quad =\quad \frac { 레코드 개수\quad N } { 테이블 크기\quad M }
 $$
+
 테이블 크기가 클수록, 또 레코드 수가 적을수록 부하율은 낮아짐
 
 부하율이 커질수록 클러스터가 형성될 확률이 높아짐
 
 **[Knuth 크누스 (1962)](https://jeffe.cs.illinois.edu/teaching/datastructures/2011/notes/knuth-OALP.pdf)**
+
 $$
-선형 검색 기법의\; 삽입\; 시\; 비교회수는\quad \frac {1} {2} ( 1 + \frac {1} {(1 - λ) ^ 2 )} )\quad 에\; 접근
+선형\quad검색 기법의\quad삽입\quad시\quad비교회수는\quad \frac {1} {2} ( 1 + \frac {1} {(1 - λ) ^ 2 )} )\quad 에\quad접근
 $$
 
 
 $$
-선형 검색 기법의\; 탐색\; 시\; 비교회수는\quad \frac {1} {2} ( 1 + \frac {1} {(1 - λ) )} ) \quad 에 \; 접근
+선형\quad검색 기법의\quad탐색\quad시\quad비교회수는\quad \frac {1} {2} ( 1 + \frac {1} {(1 - λ) )} ) \quad 에\quad접근
 $$
 
 따라서 부하율이 1에 가까울수록 비교 회수는 급증
 
-테이블 크기 $M$ 을 늘리면 배열의 빈 공간이 많아져 메모리가 낭비
+테이블 크기 `M` 을 늘리면 배열의 빈 공간이 많아져 메모리가 낭비
 
-$M$ 이 너무 작으면 작은 클러스터끼리 서로 붙어 큰 클러스터가 형성
+`M` 이 너무 작으면 작은 클러스터끼리 서로 붙어 큰 클러스터가 형성
 
-선형탐사에서 $M\approx N$ 정도로 할 때 대략 Constant Time 상수시간에 삽입과 탐색이 가능
+선형탐사에서 `M ≈ N` 정도로 할 때 대략 Constant Time 상수시간에 삽입과 탐색이 가능
 
 #### 2. Quadratic Probing Scheme 2차 검색기법
 
@@ -129,9 +131,9 @@ $M$ 이 너무 작으면 작은 클러스터끼리 서로 붙어 큰 클러스�
 
 충돌이 일어날 때 바로 그 뒤에 넣지 않고 조금 간격을 두고 삽입
 
-$T[h(KEY)]$ 가 점유되어 있을 때, $T[h(KEY) + 1^2],\;T[h(KEY) + 2^2],\;T[h(KEY) + 3^2],\;\ldots$ 의 순서로 제곱 간격을 두고 빈 곳을 찾아감.
+`T[h(KEY)]` 가 점유되어 있을 때, `T[h(KEY) + 1**2], T[h(KEY) + 2**2], T[h(KEY) + 3**2], ...` 의 순서로 제곱 간격을 두고 빈 곳을 찾아감.
 
-$h(x), h(x)+1, h(x)+4, h(x)+9, \ldots$
+`h(x), h(x)+1, h(x)+4, h(x)+9, ...`
 
 - 선형 검색 기법에서처럼 특정 영역에 원소가 몰려도 그 영역을 빨리 벗어날 수 있기를 기대함.
 - 단점: 여러 개의 원소가 같은 초기 해시값을 갖게 되면 모두 같은 순서로 탐사할 수 밖에 없음
@@ -168,34 +170,22 @@ $h(x), h(x)+1, h(x)+4, h(x)+9, \ldots$
 
 #### 4. Double Hashing 이중 해싱
 
-이중해싱은 서로 다른 두 개의 해시 함수 $h1, h2$ 를 이용
+이중해싱은 서로 다른 두 개의 해시 함수 `h1`, `h2` 를 이용
 
-하나는 기본적인 해시함수 $h(key)$ 로 키를 해시테이블의 인덱스로 변환하고, 제2의 함수 $d(key)$ 는 충돌 발생 시 다음 위치를 위한 점프 크기를 다음의 규칙에 따라 정함
+하나는 기본적인 해시함수 `h(key)` 로 키를 해시테이블의 인덱스로 변환하고, 제2의 함수 `d(key)` 는 충돌 발생 시 다음 위치를 위한 점프 크기를 다음의 규칙에 따라 정함
 
-$(h(key)\;+\;j \cdot d (key)) \mod M, \; j=0,1,2,\cdots$
+`(h(key) + j … d (key)) mod M,  j = 0, 1, 2, …`
 
 이중해싱은 동의어들이 저마다 제2 해시함수를 갖기 때문에 점프 시퀀스가 일정하지 않음
 
 따라서 이중해싱은 모든 군집화 문제를 해결
 
-제 2의 함수 $d(key)$ 는 점프 크기를 정하는 함수이므로 0을 리턴해선 안됨
+제 2의 함수 `d(key)` 는 점프 크기를 정하는 함수이므로 0을 리턴해선 안됨
 
-그 외의 조건으로 $d(key)$ 의 값과 해시테이블의 크기 $M$ 과 Relatively Prime 서로소 관계일 때 좋은 성능을 보임
+그 외의 조건으로 `d(key)` 의 값과 해시테이블의 크기 `M` 과 Relatively Prime 서로소 관계일 때 좋은 성능을 보임
 
-해시테이블 크기 $M$ 을 소수로 선택하면, 이 제약조건을 만족
+해시테이블 크기 `M` 을 소수로 선택하면, 이 제약조건을 만족
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:5px 20px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:5px 20px;word-break:normal;}
-.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-l0ih{border-color:inherit;font-family:inherit;font-size:16px;text-align:left;vertical-align:middle}
-.tg .tg-9j3s{border-color:inherit;font-weight:bold;text-align:right;vertical-align:middle}
-.tg .tg-uzvj{border-color:inherit;font-weight:bold;text-align:center;vertical-align:middle}
-.tg .tg-zt7h{font-weight:bold;text-align:right;vertical-align:middle}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
 <div class="tg-wrap"><table class="tg">
 <thead>
   <tr>
