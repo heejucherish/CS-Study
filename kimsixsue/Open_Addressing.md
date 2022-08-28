@@ -28,7 +28,7 @@ hash function 해시 함수 `h` 를 사용하여 키 `k` 를 `T[h(k)]` 에 저�
   - Hashing을 해서 삽입하려 했으나 이미 다른 원소가 자리를 차지하고 있는 상황
 
 - 즉, 서로 다른 두 키 `k_1` 과 `k_2` 에 대해서 `h(k_1)=h(k_2)` 인 상황
-- 일반적으로 `|U| >> TableSize` 이므로 항상 발생 가능 (즉 일대일 함수가 아님)
+- 일반적으로 `|U| >> TableSize` 이므로 항상 발생 가능 (즉 일대일 함수(단사 함수)가 아님)
   - 여기서 $U$ 는 모든 가능한 키들의 집합
 
 - 만약 `|K|>TableSize` 라면 당연히 발생
@@ -125,6 +125,53 @@ $$
 
 선형탐사에서 `M ≈ N` 정도로 할 때 대략 Constant Time 상수시간에 삽입과 탐색이 가능
 
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-l0ih" colspan="2" rowspan="2">효율 비교</th>
+    <th class="tg-uzvj" colspan="4">부하율</th>
+  </tr>
+  <tr>
+    <th class="tg-uzvj">50%</th>
+    <th class="tg-uzvj">66%</th>
+    <th class="tg-uzvj">75%</th>
+    <th class="tg-wa1i">90%</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-uzvj" rowspan="2">선형탐사</td>
+    <td class="tg-uzvj">탐색</td>
+    <td class="tg-9j3s">1.5</td>
+    <td class="tg-9j3s">2.0</td>
+    <td class="tg-9j3s">3.0</td>
+    <td class="tg-zt7h">5.5</td>
+  </tr>
+  <tr>
+    <td class="tg-uzvj">삽입</td>
+    <td class="tg-9j3s">2.5</td>
+    <td class="tg-9j3s">5.0</td>
+    <td class="tg-9j3s">8.5</td>
+    <td class="tg-zt7h">55.5</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="2">이중 해싱</td>
+    <td class="tg-wa1i">탐색</td>
+    <td class="tg-zt7h">1.4</td>
+    <td class="tg-zt7h">1.6</td>
+    <td class="tg-zt7h">1.8</td>
+    <td class="tg-zt7h">2.6</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">삽입</td>
+    <td class="tg-zt7h">1.5</td>
+    <td class="tg-zt7h">2.0</td>
+    <td class="tg-zt7h">3.0</td>
+    <td class="tg-zt7h">5.5</td>
+  </tr>
+</tbody>
+</table></div>
+
 #### 2. Quadratic Probing Scheme 2차 검색기법
 
 2차 검색기법은 선형 검색 기법과 근본적으로 동일한 충돌 처리 기법
@@ -182,56 +229,13 @@ $$
 
 제 2의 함수 `d(key)` 는 점프 크기를 정하는 함수이므로 0을 리턴해선 안됨
 
-그 외의 조건으로 `d(key)` 의 값과 해시테이블의 크기 `M` 과 Relatively Prime 서로소 관계일 때 좋은 성능을 보임
+- 그 외의 조건으로 `d(key)` 의 값과 해시테이블의 크기 `M` 과 Relatively Prime 서로소 관계일 때 좋은 성능을 보임
 
-해시테이블 크기 `M` 을 소수로 선택하면, 이 제약조건을 만족
+- 만약 `d(key)` 와 `M` 이 1보다 큰 최소공배수 를 가진다면?
 
-<div class="tg-wrap"><table class="tg">
-<thead>
-  <tr>
-    <th class="tg-l0ih" colspan="2" rowspan="2"></th>
-    <th class="tg-uzvj" colspan="4">부하율</th>
-  </tr>
-  <tr>
-    <th class="tg-uzvj">50%</th>
-    <th class="tg-uzvj">66%</th>
-    <th class="tg-uzvj">75%</th>
-    <th class="tg-wa1i">90%</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-uzvj" rowspan="2">선형탐사</td>
-    <td class="tg-uzvj">탐색</td>
-    <td class="tg-9j3s">1.5</td>
-    <td class="tg-9j3s">2.0</td>
-    <td class="tg-9j3s">3.0</td>
-    <td class="tg-zt7h">5.5</td>
-  </tr>
-  <tr>
-    <td class="tg-uzvj">삽입</td>
-    <td class="tg-9j3s">2.5</td>
-    <td class="tg-9j3s">5.0</td>
-    <td class="tg-9j3s">8.5</td>
-    <td class="tg-zt7h">55.5</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i" rowspan="2">이중 해싱</td>
-    <td class="tg-wa1i">탐색</td>
-    <td class="tg-zt7h">1.4</td>
-    <td class="tg-zt7h">1.6</td>
-    <td class="tg-zt7h">1.8</td>
-    <td class="tg-zt7h">2.6</td>
-  </tr>
-  <tr>
-    <td class="tg-wa1i">삽입</td>
-    <td class="tg-zt7h">1.5</td>
-    <td class="tg-zt7h">2.0</td>
-    <td class="tg-zt7h">3.0</td>
-    <td class="tg-zt7h">5.5</td>
-  </tr>
-</tbody>
-</table></div>
+  – `key` 의 자리를 찾기 위해 해시 테이블 전체 중 기껏해야 `M / 최소공배수` 밖에 보지 못함. 
+
+- 해시 테이블 크기 `M` 을 소수로 잡고, `d(key)` 의 값이 항상 `M` 보다 작은 자연수가 되게 하면, 이들이 항상 서로소가 될 수 있음
 
 ## 참고자료
 
