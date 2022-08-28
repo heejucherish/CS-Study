@@ -46,8 +46,6 @@ CLI는 Git의 **모든** 기능을 지원한다. GUI는 Git의 일부 기능만 
 
 - 저장소에 있는 파일들은 Comitted이다. Index에 추가하기 전, 수정했다면 Modified이다. 수정 후 Index에 추가하면 Staged이다. 
 
----
-
 ## 2. Git의 기초
 
 ### Git 최초 설정
@@ -97,8 +95,6 @@ $ git config --global user.email johndoe@example.com
 
 - `git push <리모트 저장소 이름> <브랜치 이름>`로 서버에 Push 한다.
 
----
-
 ## 3. Git 브랜치
 
 - **브랜치**란 코드를 통째로 복사하고 나서 원래 코드와는 상관없이 독립적으로 개발하는 것이다. Git의 브랜치는 커밋 사이를 가볍게 이동할 수 있는 포인터 같은 것이다. 
@@ -107,7 +103,6 @@ $ git config --global user.email johndoe@example.com
 
 - `git clone` 명령이 자동으로 **리모트 이름**을 “**origin**”으로 만들어준다.
 
----
 
 ## 4. 분산 환경에서의 Git
 
@@ -155,8 +150,6 @@ Hub 사이트를 통해 주로 사용하는 방식이다. 프로젝트를 **Fork
   add ls-files
   ```
 
----
-
 ## 5. Git 서버
 
 - [GitLab](https://gitlab.com/)
@@ -170,8 +163,6 @@ Hub 사이트를 통해 주로 사용하는 방식이다. 프로젝트를 **Fork
   - Git 서버를 직접 운영하지 않으려면 골라야하는 가장 큰 Git **호스팅** 서비스이다.
   
   - 호스팅 서비스를 이용하면 설정과 유지보수가 쉬워진다. 대신 코드를 외부에 두게 된다. 자신의 회사나 조직에서 이를 허용하는지 사용하기 전에 확인해야 한다.
-
----
 
 ## 6. [GitHub](https://github.com/)
 
@@ -283,8 +274,6 @@ GitHub는 저장소 랜딩 페이지를 보여줄 때 README 파일을 이용해
 
 GitHub는 README 파일을 렌더링하는 것이기 때문에 이미지나 외부 링크를 적어도 된다.
 
----
-
 ## 7. Git 도구
 
 ### Stashing
@@ -292,8 +281,6 @@ GitHub는 README 파일을 렌더링하는 것이기 때문에 이미지나 외�
 `git stash` 라는 명령으로 **커밋하지 않을 수 있다**.
 
 Stash 명령을 사용하면 워킹 디렉토리에서 수정한 파일들만 저장한다. Stash는 Modified이면서 Tracked 상태인 파일과 Staging Area에 있는 파일들을 보관해두는 장소다. 
-
----
 
 ## 부록: Git 명령어
 
@@ -309,7 +296,7 @@ Git 저장소는 두 가지 방법으로 만든다. 네트워크 어딘가에 �
 
 `git add` 명령은 워킹 디렉토리에서 Staging Area(“index”)로 **컨텐트를 추가**하는 명령어다. `git commit` 명령은 오로지 Staging Area만 바라보기 때문에 `git add` 명령으로 커밋할 스냅샷을 잘 다듬어야 한다.
 
-`git status` 명령은 워킹 디렉토리와 Staging Aread의 **상태**를 보여준다. Modified 상태이거나 Unstaged 상태인 파일이 무엇인지 Staged 상태이지만 아직 커밋하지 않은 파일은 무엇인지 보여준다. Staging Area에 파일을 넣고 꺼내는 방법에 대한 힌트도 보여준다.
+`git status` 명령은 워킹 디렉토리와 Staging Area의 **상태**를 보여준다. Modified 상태이거나 Unstaged 상태인 파일이 무엇인지 Staged 상태이지만 아직 커밋하지 않은 파일은 무엇인지 보여준다. Staging Area에 파일을 넣고 꺼내는 방법에 대한 힌트도 보여준다.
 
 `git diff` 명령은 두 트리 개체의 **차이**를 보고 싶을 때 사용한다. 워킹 디렉토리와 Staging Area를 비교할 수 있다.
 
@@ -328,8 +315,6 @@ Git 저장소는 두 가지 방법으로 만든다. 네트워크 어딘가에 �
 `git push` 명령은 리모트에는 없지만, 로컬에는 있는 커밋을 계산하고 나서 **그 차이만큼만** Push 한다. Push를 하려면 원격 저장소에 대한 쓰기 권한이 필요하고 인증돼야 한다.
 
 `git remote` 명령은 원격 저장소 설정인 리모트의 관리 도구다. 이 명령은 `git remote add <name> <url>` 형식으로 사용한다.
-
----
 
 ## 공식 페이지
 
