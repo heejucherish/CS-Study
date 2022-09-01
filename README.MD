@@ -75,9 +75,9 @@
   
   - [BST (Binary Search Tree)](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)
   
-- Binary Heap - 8월 28일 스터디 예정
+- [Binary Heap](https://github.com/heejucherish/CS-Study/blob/master/Ujin/Binary%20Heap.md)
 
-- Red-Black Tree
+- Red-Black Tree 
   
   - 정의
   
@@ -87,16 +87,15 @@
   
   - 삭제
 
-- Hash Table
-  
-  - Hash Function
+- [Hash Table](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%ED%95%B4%EC%89%AC(Hash).md)
+  - [Hash Function](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC%20%EC%A0%95%EB%A6%AC.md)
   
   - Resolve Collision
     
-    - Open Addressing
+    - [Open Addressing](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Open_Addressing.md)
     
-    - Separate Chaining
-
+    - [Separate Chaining](https://github.com/heejucherish/CS-Study/blob/master/heeju/HashTable_Separate_chaining.md)
+  
 - Graph
   
   - Graph 용어 정리
