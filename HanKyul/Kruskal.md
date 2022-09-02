@@ -8,15 +8,15 @@
 
 * Union-Find 알고리즘에서의 집합의 모습
   
-  * ![](.\IMG_KRUSKAL\union-find-union3.png)
+  ![desc](.\IMG_KRUSKAL\union-find-union3.png)
   
   #### 코드를 보기 전에 그림으로 살펴봅시다
   
   1. 초기 상태 (자기 자신을 멤버로 하는 집합)
   
-  ![](.\IMG_KRUSKAL\039a333.jpg)
+  ![desc](.\IMG_KRUSKAL\039a333.jpg)
   
-  ![](.\IMG_KRUSKAL\1539ad6.jpg)
+  ![desc](.\IMG_KRUSKAL\1539ad6.jpg)
   
   #### P배열 == Arr입니다
   
@@ -24,21 +24,21 @@
   
   2. Union(2,1)
   
-  ![](.\IMG_KRUSKAL\28e2d55.jpg)
+  ![desc](.\IMG_KRUSKAL\28e2d55.jpg)
   
-  ![](.\IMG_KRUSKAL\32f6a91.jpg)
+  ![desc](.\IMG_KRUSKAL\32f6a91.jpg)
   
   3. Union(4,3) -> Union(8,4) -> Union(9,3)
   
-  ![](.\IMG_KRUSKAL\4c11a99.jpg)
+  ![desc](.\IMG_KRUSKAL\4c11a99.jpg)
   
-  ![](.\IMG_KRUSKAL\6a7bc9a.jpg)
+  ![desc](.\IMG_KRUSKAL\6a7bc9a.jpg)
   
   4. Union(6,5)
   
-  ![](.\IMG_KRUSKAL\66d9b5d.jpg)
+  ![desc](.\IMG_KRUSKAL\66d9b5d.jpg)
   
-  ![](.\IMG_KRUSKAL\7439d01.jpg)
+  ![desc](.\IMG_KRUSKAL\7439d01.jpg)
   
   #### 코드와 함께 살펴봅시다
   
@@ -94,9 +94,9 @@
   print('union 3,2')
   print('p3 ',p)
   print('r3 ',r)
-  ```
+```
   
-  1. ### MakeSet();
+1. ### MakeSet();
   
   ```python
   ddef makeSet():
@@ -108,7 +108,7 @@
 
 재귀적 구현
 
-![](.\IMG_KRUSKAL\집합ㅈ.JPG)
+![desc](.\IMG_KRUSKAL\집합ㅈ.JPG)
 
 8의 부모를 찾아가려면...
 
@@ -158,7 +158,7 @@ def union(x,y):
 
 ### 근데... r배열은 뭐죠?
 
-<img title="" src="./IMG_KRUSKAL/weighted-quick-union-overview.png" alt="Weighted quick union overview" width="534">
+![desc](./IMG_KRUSKAL/weighted-quick-union-overview.png)
 
 Tree의 크기를 관리하기 위함입니다.
 
@@ -196,9 +196,9 @@ def union(x,y):
 
 ### MST (Minimal Spanning Tree), 최소 신장 트리
 
-1. ### spanning Tree(신장 트리)란?
+### 1. spanning Tree(신장 트리)란?
    
-   ![](https://gmlwjd9405.github.io/images/algorithm-mst/spanning-tree.png)
+   ![](.\IMG_KRUSKAL\spanning-tree.png)
 
 연결 그래프에서 순환 요소를 삭제하고, 
 
@@ -206,7 +206,7 @@ def union(x,y):
 
 트리 모양으로 만든 것을 신장 트리라 한다.
 
-2. ### Minimal Spanning Tree(최소 신장 트리)란?
+### 2. Minimal Spanning Tree(최소 신장 트리)란?
    
    가중치 그래프에서 **최소 가중치**값을 가지도록 만든 신장 트리이다.
    
