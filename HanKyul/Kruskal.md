@@ -8,15 +8,15 @@
 
 * Union-Find 알고리즘에서의 집합의 모습
   
-  ![desc](.\IMG_KRUSKAL\union-find-union3.png)
+  ![desc](./IMG_KRUSKAL/union-find-union3.png)
   
   #### 코드를 보기 전에 그림으로 살펴봅시다
   
   1. 초기 상태 (자기 자신을 멤버로 하는 집합)
   
-  ![desc](.\IMG_KRUSKAL\039a333.jpg)
+  ![desc](./IMG_KRUSKAL/039a333.jpg)
   
-  ![desc](.\IMG_KRUSKAL\1539ad6.jpg)
+  ![desc](./IMG_KRUSKAL/1539ad6.jpg)
   
   #### P배열 == Arr입니다
   
@@ -24,21 +24,21 @@
   
   2. Union(2,1)
   
-  ![desc](.\IMG_KRUSKAL\28e2d55.jpg)
+  ![desc](./IMG_KRUSKAL/28e2d55.jpg)
   
-  ![desc](.\IMG_KRUSKAL\32f6a91.jpg)
+  ![desc](./IMG_KRUSKAL/32f6a91.jpg)
   
   3. Union(4,3) -> Union(8,4) -> Union(9,3)
   
-  ![desc](.\IMG_KRUSKAL\4c11a99.jpg)
+  ![desc](./IMG_KRUSKAL/4c11a99.jpg)
   
-  ![desc](.\IMG_KRUSKAL\6a7bc9a.jpg)
+  ![desc](./IMG_KRUSKAL/6a7bc9a.jpg)
   
   4. Union(6,5)
   
-  ![desc](.\IMG_KRUSKAL\66d9b5d.jpg)
+  ![desc](./IMG_KRUSKAL/66d9b5d.jpg)
   
-  ![desc](.\IMG_KRUSKAL\7439d01.jpg)
+  ![desc](./IMG_KRUSKAL/7439d01.jpg)
   
   #### 코드와 함께 살펴봅시다
   
@@ -108,7 +108,7 @@
 
 재귀적 구현
 
-![desc](.\IMG_KRUSKAL\집합ㅈ.JPG)
+![desc](./IMG_KRUSKAL/집합ㅈ.JPG)
 
 8의 부모를 찾아가려면...
 
@@ -176,7 +176,7 @@ def union(x,y):
     return True
 ```
 
-![enter image description here](.\IMG_KRUSKAL\a1f5858.jpg)
+![enter image description here](./IMG_KRUSKAL/a1f5858.jpg)
 
 * 오른쪽 트리가 더 크기 때문에
   
@@ -188,7 +188,7 @@ def union(x,y):
   
   * 자식들의 부모를 다 바꿔줘야 하니까
 
-![performance of union-find algorithms](.\IMG_KRUSKAL\uf-performance.png)
+![performance of union-find algorithms](./IMG_KRUSKAL/uf-performance.png)
 
 속도 면에서도 훨씬 유리하기 때문에, Path Compression과 Weighted Quick Union은 꼭 외우도록 합시다.
 
@@ -198,7 +198,7 @@ def union(x,y):
 
 ### 1. spanning Tree(신장 트리)란?
    
-   ![](.\IMG_KRUSKAL\spanning-tree.png)
+   ![](./IMG_KRUSKAL/spanning-tree.png)
 
 연결 그래프에서 순환 요소를 삭제하고, 
 
@@ -210,11 +210,11 @@ def union(x,y):
    
    가중치 그래프에서 **최소 가중치**값을 가지도록 만든 신장 트리이다.
    
-   ![](.\IMG_KRUSKAL\MST_before.png)
+   ![](./IMG_KRUSKAL/MST_before.png)
    
    가중치 그래프
    
-   ![](.\IMG_KRUSKAL\MST_after.png)
+   ![](./IMG_KRUSKAL/MST_after.png)
 
 위의 가중치 그래프로 만든 Minimal Spanning Tree
 
@@ -228,11 +228,11 @@ def union(x,y):
    
    * 즉 Union-Find를 통해, 같은 집합인지 확인하면 된다
 
-![](.\IMG_KRUSKAL\가중치정리.JPG)
+![](./IMG_KRUSKAL/가중치정리.JPG)
 
 * 가중치를 무게순으로 정리한다
 
-![](.\IMG_KRUSKAL\크루스칼완료.JPG)
+![](./IMG_KRUSKAL/크루스칼완료.JPG)
 
 * 사이클을 이루지 않는 조건으로, 하나씩 간선을 고른다
   
