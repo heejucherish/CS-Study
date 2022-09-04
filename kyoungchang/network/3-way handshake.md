@@ -22,6 +22,8 @@
 
 <img width="1056" alt="스크린샷 2022-09-03 오후 10 09 06" src="https://user-images.githubusercontent.com/72541544/188272666-faeeb34a-5e00-4f1a-87c1-11df815fdb9c.png">
 
+> `SYN(synchronize sequence numbers)` : 동시에 발생하다. 다른 컴퓨터로 전송된 TCP 패킷으로 연결이 이루어지도록 요청한다.
+> `ACK(acknowledgment)` : 승인의 약자, 다른 컴퓨터나 네트워크 장치가 다른 컴퓨터에 SYN/ACK 또는 다른 요청을 보낸 것을 확인한 응답을 나타낸다.
 
 
 &nbsp;
