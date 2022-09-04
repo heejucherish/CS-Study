@@ -13,7 +13,9 @@
 > TCP 통신은 아래와 같은 3단계의 과정을 거친다.
 
 (1) `Connection setup` (tcp 연결 초기화) - 3 way handshaking
+
 (2) `Data transfer` (데이터 전송)
+
 (3) `Connection termination` (tcp 연결 종료) - 4way handshaking
 
 => `3-way handshaking`이 `Connection setup`의 과정이다.
