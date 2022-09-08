@@ -9,7 +9,7 @@
         * [a. 2차 검색기법의 빈 칸](#a-2차-검색기법의-빈-칸)
         * [b. 1차 클러스터, 2차 클러스터](#b-1차-클러스터-2차-클러스터)
       - [3. Random Probing Scheme 무작위 검색 기법](#3-random-probing-scheme-무작위-검색-기법)
-      - [4. Double Hashing 이중 해싱](4-double-hashing-이중-해싱)
+      - [4. Double Hashing 이중 해싱](#4-double-hashing-이중-해싱)
   * [참고자료](#참고자료)
 
 # Hash Table
