@@ -2,9 +2,9 @@
   * [Application Programming Interface](#application-programming-interface)
   * [REpresentational State Transfer](#representational-state-transfer)
   * [본론](#본론)
-    + [REST 아키텍처 스타일의 디자인 원칙](#REST 아키텍처 스타일의 디자인 원칙)
+    + [REST 아키텍처 스타일의 디자인 원칙](#REST-아키텍처-스타일의-디자인-원칙)
     + [작동방식](#작동방식)
-  * [실제 사례 및 참고 사이트](#실제 사례 및 참고 사이트)
+  * [실제 사례 및 참고 사이트](#실제-사례-및-참고-사이트)
 
 # REST[ful] API
 
