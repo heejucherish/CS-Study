@@ -1,4 +1,4 @@
-- [REST[ful] API](#rest-ful--api)
+- [REST[ful] API](#restful-api)
   * [Application Programming Interface](#application-programming-interface)
   * [REpresentational State Transfer](#representational-state-transfer)
   * [본론](#본론)

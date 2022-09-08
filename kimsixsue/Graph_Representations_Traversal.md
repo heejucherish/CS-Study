@@ -1,4 +1,4 @@
-- [Graph_Representations_Traversal](#graph-representations-traversal)
+- [Graph_Representations_Traversal](#graph_representations_traversal)
   * [Concepts](#concepts)
   * [Representations](#representations)
     + [Adjacency Matrix](#adjacency-matrix)
@@ -6,7 +6,7 @@
   * [Traversal](#traversal)
     + [Depth First Search](#depth-first-search)
     + [Breadth First Search](#breadth-first-search)
-  * [[참고] 쾨니히스베르크의 다리 문제](#[참고]-쾨니히스베르크의-다리-문제])
+  * [[참고] 쾨니히스베르크의 다리 문제](#참고-쾨니히스베르크의-다리-문제)
   * [참고 주소](#참고-주소)
 
 # Graph_Representations_Traversal
