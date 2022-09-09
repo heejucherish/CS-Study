@@ -116,7 +116,7 @@
 
 - GET, POST 방식의 차이점
 
-- TCP 3-way-handshake
+- [TCP 3-way-handshake](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/3-way%20handshake.md)
 
 - TCP 와 UDP 의 차이점
 
