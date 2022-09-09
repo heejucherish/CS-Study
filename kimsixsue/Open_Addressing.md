@@ -1,15 +1,24 @@
 - [Hash Table](#hash-table)
   * [Resolve Collision Scheme 충돌 처리 기법](#resolve-collision-scheme-충돌-처리-기법)
     + [Open Addressing](#open-addressing)
-      - [1. Linear Probing Scheme 선형 검색 기법](#1-linear-probing-scheme-선형-검색-기법)
-        * [a. 선형 검색 기법의 최대 단점](#a-선형-검색-기법의-최대-단점)
-        * [b. 선형 검색 기법의 태그 필요성](#b-선형-검색-기법의-태그-필요성)
-        * [c. 부하율 : 해시 테이블의 부담](#c-부하율--해시-테이블의-부담)
-      - [2. Quadratic Probing Scheme 2차 검색기법](#2-quadratic-probing-scheme-2차-검색기법)
-        * [a. 2차 검색기법의 빈 칸](#a-2차-검색기법의-빈-칸)
-        * [b. 1차 클러스터, 2차 클러스터](#b-1차-클러스터-2차-클러스터)
-      - [3. Random Probing Scheme 무작위 검색 기법](#3-random-probing-scheme-무작위-검색-기법)
-      - [4. Double Hashing 이중 해싱](#4-double-hashing-이중-해싱)
+      
+      [1. Linear Probing Scheme 선형 검색 기법](#1-linear-probing-scheme-선형-검색-기법)
+      
+      ​	[a. 선형 검색 기법의 최대 단점](#a-선형-검색-기법의-최대-단점)
+      
+      ​	[b. 선형 검색 기법의 태그 필요성](#b-선형-검색-기법의-태그-필요성)
+      
+      ​	[c. 부하율 : 해시 테이블의 부담](#c-부하율--해시-테이블의-부담)
+      
+      [2. Quadratic Probing Scheme 2차 검색기법](#2-quadratic-probing-scheme-2차-검색기법)
+      
+      ​	[a. 2차 검색기법의 빈 칸](#a-2차-검색기법의-빈-칸)
+      
+      ​	[b. 1차 클러스터, 2차 클러스터](#b-1차-클러스터-2차-클러스터)
+      
+      [3. Random Probing Scheme 무작위 검색 기법](#3-random-probing-scheme-무작위-검색-기법)
+      
+      [4. Double Hashing 이중 해싱](#4-double-hashing-이중-해싱)
   * [참고자료](#참고자료)
 
 # Hash Table
