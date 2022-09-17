@@ -6,6 +6,7 @@
 
 ### 근데 그게 무슨 말이에요?
 먼저 이진 탐색 트리에서 비효율적인 예시를 살펴보자.
+
 ![](IMG_RED_BLACK/bad_binary_tree.png)
 
 * 위 예시의 경우
@@ -81,11 +82,13 @@ P,U를 검정색으로 바꿈
 
 단, 조상 노드(G)가 Root가 아닌 경우
 ![](IMG_RED_BLACK/recol_1_1.png)
+
 3을 삽입 후, G를 빨간색으로, P,U를 검정색으로 하는 Recoloring 진행
 
 Double Red 발생
 
 ![](IMG_RED_BLACK/Recol_2_2.png)
+
 삼촌(U)이 빨간색이므로 Recoloring 진행
 
 만약 삼촌(U)이 검정색이었으면, Reconstructing 진행하면 된다.
