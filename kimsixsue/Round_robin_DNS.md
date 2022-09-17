@@ -26,7 +26,7 @@ DNS Round robin은 1개의 domain name에 대해서, 여러 개의 IP 주소를 
 
 DNS 서버에 설정만 조금 추가하면, 트래픽 분산을 할 수 있으며, 별도의 장비를 구매하지 않아도 됩니다. 
 
-설치가 간단하고, 부하를 분산하는 디스패처가 없어서, 한 서버가 장애로 서비스를 할 수 없게 되어도, 전체 시스템에 영향을 미치지 않는다. 즉, **SPOF(Single Point Of Failure)**가 발생하지 않는 장점이 있다. 
+설치가 간단하고, 부하를 분산하는 디스패처가 없어서, 한 서버가 장애로 서비스를 할 수 없게 되어도, 전체 시스템에 영향을 미치지 않는다. 즉, **SPOF**(**Single Point Of Failure**)가 발생하지 않는 장점이 있다. 
 
 ## Cons
 
@@ -143,9 +143,9 @@ Least-Connection 방식들은 각 서버에 대한 active connection number 활�
 
 6. **L**east **L**oaded 방식
 
-   - 각 서버는 주기적으로 CPU, 메모리 사용량 정보를 **SNMP(simple network management protocol)**를 이용해서 부하 분산장치에 알려줍니다. 부하 분산장치가 요청받으면 취득한 정보를 바탕으로, 부하가 가장 적은 서버에 할당합니다.
+   - 각 서버는 주기적으로 CPU, 메모리 사용량 정보를 **SNMP**(**simple network management protocol**)를 이용해서 부하 분산장치에 알려줍니다. 부하 분산장치가 요청받으면 취득한 정보를 바탕으로, 부하가 가장 적은 서버에 할당합니다.
    - 다른 방식보다 정보의 신뢰성은 높지만, 그 정보가 실시간 정보가 아니라는 문제점이 있습니다.
-   - 이것을 사용하기 위해서는 서버에 SNMP agent가 설치되어 있어야 하며, SNMP에서 사용하는 **MIB(management information base)**의 값이 해당 서버의 load 부하를 표현할 수 있어야 합니다.
+   - 이것을 사용하기 위해서는 서버에 SNMP agent가 설치되어 있어야 하며, SNMP에서 사용하는 **MIB**(**management information base**)의 값이 해당 서버의 load 부하를 표현할 수 있어야 합니다.
 
 ## References
 
