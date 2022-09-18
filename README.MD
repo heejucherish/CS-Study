@@ -120,7 +120,7 @@
 
 - TCP 와 UDP 의 차이점
 
-- HTTP 와 HTTPS 의 차이점
+- [HTTP 와 HTTPS 의 차이점](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/HTTP%20%EC%99%80%20HTTPS%20%EC%B0%A8%EC%9D%B4%EC%A0%90.%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
   
   - HTTP 의 문제점들
 
