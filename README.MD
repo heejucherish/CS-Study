@@ -22,6 +22,7 @@
 ### :deciduous_tree: Rule
 
 
+
 - 스터디 시간: 매주 일요일 10시 
 
 - 각자 1주에 1개씩 맡는다 
@@ -115,11 +116,11 @@
 
 - GET, POST 방식의 차이점
 
-- TCP 3-way-handshake
+- [TCP 3-way-handshake](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/3-way%20handshake.md)
 
 - TCP 와 UDP 의 차이점
 
-- HTTP 와 HTTPS 의 차이점
+- [HTTP 와 HTTPS 의 차이점](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/HTTP%20%EC%99%80%20HTTPS%20%EC%B0%A8%EC%9D%B4%EC%A0%90.%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
   
   - HTTP 의 문제점들
 
