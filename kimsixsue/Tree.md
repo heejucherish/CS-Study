@@ -18,8 +18,6 @@
   
   - 인공지능에서의 decision tree, 의사 결정 트리 구조
 
----
-
 ## Tree
 
 - 한 개 이상의 노드로 이루어진 유한집합
@@ -48,7 +46,6 @@
     
     - 표현하기 어려우나 크기가 가변적이어서, 변화하는 트리를 적절하게 표현하기 용이함
 
----
 
 ## 용어
 
@@ -69,16 +66,14 @@
 | `height`                            | 트리가 갖는 최대 레벨                                                                     |
 | degree                              | 노드가 가지고 있는 자식 노드의 개수                                                             |
 
-----
+## 참고자료
 
-## 강의노트
+[트리, 자료구조, 강원대학교 컴퓨터공학과 이창기 교수](https://cs.kangwon.ac.kr/~leeck/DS/DS_07.pdf)
 
-[강원대학교 IT대학 컴퓨터공학과 이창기 교수](https://cs.kangwon.ac.kr/~leeck/DS/DS_07.pdf)
+[트리, 자료구조, 부산가톨릭대학교 소프트웨어학과 원성현 교수](http://contents.kocw.or.kr/KOCW/document/2015/cup/weonsunghyun2/8.pdf)
 
-[부산가톨릭대학교 소프트웨어학과 원성현 교수](http://contents.kocw.or.kr/KOCW/document/2015/cup/weonsunghyun2/8.pdf)
+[트리, 자료구조, 전북대학교 인지컴퓨팅연구실](https://nlp.jbnu.ac.kr/DS/ch10.pdf)
 
-[전북대학교 인지컴퓨팅연구실](https://nlp.jbnu.ac.kr/DS/ch10.pdf)
+[트리, 자료구조, 창원대학교 정보 시각화 연구실](http://ivis.kr/images/3/32/08.%ED%8A%B8%EB%A6%AC%282019%29.pdf)
 
-[창원대학교 정보 시각화 연구실](http://ivis.kr/images/3/32/08.%ED%8A%B8%EB%A6%AC%282019%29.pdf)
-
-[청주대학교 공과대학 융합전자공학부 전자공학전공 한철수 교수](https://cis.cju.ac.kr/wp-content/lecture-materials/computer-algorithms/Chapter%2008%20%ED%8A%B8%EB%A6%AC(Tree).pdf)
+[트리, 컴퓨터 알고리즘, 청주대학교 전자공학전공 한철수 교수](https://cis.cju.ac.kr/wp-content/lecture-materials/computer-algorithms/Chapter%2008%20%ED%8A%B8%EB%A6%AC(Tree).pdf)

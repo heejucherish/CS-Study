@@ -6,6 +6,10 @@
 
 ### :baby_chick: 스터디원
 
+
+##### 스터디 시간 및 방법
+
+
 |  이름  |                            GitHub                            |
 | :----: | :----------------------------------------------------------: |
 | 권유진 |           [@Ujinkwon](https://github.com/Ujinkwon)           |
@@ -13,10 +17,21 @@
 | 고청천 | [@kochungcheon](https://github.com/heejucherish/CS-Study/commits?author=kochungcheon) |
 | 박희주 |       [@heejucherish](https://github.com/heejucherish)       |
 | 장한결 |           [@HKJang95](https://github.com/HKJang95)           |
-
-
+| 이경창 |             [@lkc263](https://github.com/lkc263)             |
 
 ### :deciduous_tree: Rule
+
+
+
+- 스터디 시간: 매주 일요일 10시 
+
+- 각자 1주에 1개씩 맡는다 
+
+- 다른사람에게 공부한 cs를 설명하는 시간을 가진다 :마크다운 활용
+  
+  - 각자 발표 시간 10분내외 및 질의응답
+  - git commit은 스터디 당일까지
+
 - **스터디 시간 및 방법**
   - 스터디 시간: 매주 **일요일 10시** 
   - 각자 **1주에 1개씩** 맡는다 
@@ -62,9 +77,9 @@
   
   - [BST (Binary Search Tree)](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EC%9D%B4%EC%A7%84%20%EA%B2%80%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)
   
-- Binary Heap - 8월 28일 스터디 예정
+- [Binary Heap](https://github.com/heejucherish/CS-Study/blob/master/Ujin/Binary%20Heap.md)
 
-- Red-Black Tree
+- Red-Black Tree 
   
   - 정의
   
@@ -74,16 +89,15 @@
   
   - 삭제
 
-- Hash Table
-  
-  - Hash Function
+- [Hash Table](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%ED%95%B4%EC%89%AC(Hash).md)
+  - [Hash Function](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC%20%EC%A0%95%EB%A6%AC.md)
   
   - Resolve Collision
     
-    - Open Addressing
+    - [Open Addressing](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Open_Addressing.md)
     
-    - Separate Chaining
-
+    - [Separate Chaining](https://github.com/heejucherish/CS-Study/blob/master/heeju/HashTable_Separate_chaining.md)
+  
 - Graph
   
   - Graph 용어 정리
@@ -102,11 +116,11 @@
 
 - GET, POST 방식의 차이점
 
-- TCP 3-way-handshake
+- [TCP 3-way-handshake](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/3-way%20handshake.md)
 
 - TCP 와 UDP 의 차이점
 
-- HTTP 와 HTTPS 의 차이점
+- [HTTP 와 HTTPS 의 차이점](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/HTTP%20%EC%99%80%20HTTPS%20%EC%B0%A8%EC%9D%B4%EC%A0%90.%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
   
   - HTTP 의 문제점들
 
