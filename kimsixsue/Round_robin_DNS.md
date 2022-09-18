@@ -52,12 +52,23 @@ DNS 서버에 설정만 조금 추가하면, 트래픽 분산을 할 수 있으�
 
 DNS Round-Robin의 단점을 해결한, Load-balancer 부하 분산장치의 Scheduling Algorithms 작업 할당 방식
 
+<details>
+  
+<summary>
+자세히
+</summary>
+
 ### Static
 
 서버의 현재 상태를 고려하지 않는 부하 분산 기법 
 
 Round-Robin 방식들은 서버에 대한 어떠한 load information 부하 정보도 가지고 있지 않기 때문에 self-explanatory 자명하다. 
 
+<details>
+<summary>
+자세히
+</summary>
+  
 1. **R**ound-**R**obin Scheduling 라운드 로빈 스케줄링
 
    - cache 된 DNS 질의에 의해 불균등하게 분산되지 않음
@@ -81,6 +92,7 @@ Round-Robin 방식들은 서버에 대한 어떠한 load information 부하 정�
 
    - 평상시에는 active 장비만 사용하고, active 장비에 장애가 발생했을 때만, standby 장비를 사용합니다. 
    - 이 방식은 부하분산이라기보다는 서버 이중화를 위한 기능입니다.
+</details>
 
 ### Dynamic
 
@@ -88,6 +100,12 @@ Round-Robin 방식들은 서버에 대한 어떠한 load information 부하 정�
 
 Least-Connection 방식들은 각 서버에 대한 active connection number 활동 접속 수를 세어 이러한 connection number에 의해 그들의 부하를 추정한다. 
 
+<details>
+<summary>
+자세히
+</summary>
+
+  
 1. **L**east-**C**onnection Scheduling 최소 접속(연결) 스케줄링
 
    - 부하 분산장치가 요청받는 시점에서 가장 연결 수가 적은 서버를 선택하여 요청을 할당합니다. 연결을 길게 지속해야 하는 애플리케이션을 부하분산 할 때 적합합니다
@@ -146,6 +164,9 @@ Least-Connection 방식들은 각 서버에 대한 active connection number 활�
    - 각 서버는 주기적으로 CPU, 메모리 사용량 정보를 **SNMP**(**simple network management protocol**)를 이용해서 부하 분산장치에 알려줍니다. 부하 분산장치가 요청받으면 취득한 정보를 바탕으로, 부하가 가장 적은 서버에 할당합니다.
    - 다른 방식보다 정보의 신뢰성은 높지만, 그 정보가 실시간 정보가 아니라는 문제점이 있습니다.
    - 이것을 사용하기 위해서는 서버에 SNMP agent가 설치되어 있어야 하며, SNMP에서 사용하는 **MIB**(**management information base**)의 값이 해당 서버의 load 부하를 표현할 수 있어야 합니다.
+</details>
+
+</details>
 
 ## References
 
