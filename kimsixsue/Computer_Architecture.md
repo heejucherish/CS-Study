@@ -1,4 +1,4 @@
-[Computer_Architecture](#computer-architecture)
+[Computer_Architecture](#computer_architecture)
 
 * [basic configuration](#basic-configuration)
 
