@@ -132,7 +132,7 @@
 
 - CPU와 메모리
 
-- 컴퓨터 성능 항상 기술
+- [컴퓨터 성능 항상 기술](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/os/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81%EA%B8%B0%EC%88%A0.md)
 
 - 병렬 처리
   
