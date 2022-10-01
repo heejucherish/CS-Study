@@ -1,4 +1,4 @@
-[OS/CPU Scheduling/FCFS](#os-cpu-scheduling-fcfs)
+[OS_CPU Scheduling_FCFS](#os_cpu-scheduling_fcfs)
 
 1. [Scheduling](#1-scheduling)
 
@@ -12,7 +12,7 @@
 
 * [References](#references)
 
-# OS/CPU Scheduling/FCFS
+# OS_CPU Scheduling_FCFS
 
 ## 1. Scheduling
 
@@ -26,12 +26,15 @@
     - CPU의 사용률을 높일 수 있다
     
         <details>
+   
         <summary>자세히</summary>
+   
         <ul>
             <li>여러 개의 프로세스를 주기억장치에 적재하여 실행 중이던 프로세스가 중앙처리장치 동작이 아닌 다른 사건(입출력 동작)이 발생하기를 기다리는 동안 다른 프로세스가 중앙처리장치에 의해 실행되도록 하여 <strong>중앙처리장치 이용률을 최대화</strong>하는 개념</li>
             <br>
             <li>실행 상태에 있던 프로세스의 실행이 종료되거나 다른 사건이 발생하기를 기다리기 위해 대기 상태가 되면 <strong>다음에 실행할 새로운 프로세스</strong>를 정해야 함</li>
         </ul>
+   
         </details>
     
   - 메모리 내 실행 준비된 프로세스들 가운데 하나를 선택하여 CPU를 할당함
