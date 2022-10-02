@@ -79,8 +79,7 @@
   
 - [Binary Heap](https://github.com/heejucherish/CS-Study/blob/master/Ujin/Binary%20Heap.md)
 
-- Red-Black Tree 
-  
+- [Red-Black Tree](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/red-black.md) 
   - 정의
   
   - 특징
@@ -88,7 +87,7 @@
   - 삽입
   
   - 삭제
-
+  
 - [Hash Table](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%ED%95%B4%EC%89%AC(Hash).md)
   - [Hash Function](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC%20%EC%A0%95%EB%A6%AC.md)
   
@@ -100,41 +99,40 @@
   
 - Graph
   
-  - Graph 용어 정리
+  - [Graph 용어 정리](https://github.com/heejucherish/CS-Study/blob/master/Ujin/Graph%20%EC%9A%A9%EC%96%B4%20%EC%A0%95%EB%A6%AC.md)
   
-  - Graph 구현
+  - [Graph 구현](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Graph_Representations_Traversal.md)
   
-  - Graph 탐색
+  - [Graph 탐색](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Graph_Representations_Traversal.md)
   
   - Minimum Spanning Tree
     
-    - Kruskal algorithm
+    - [Kruskal algorithm](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/Kruskal.md)
     
-    - Prim algorithm
+    - [Prim algorithm](https://github.com/heejucherish/CS-Study/blob/master/heeju/Prim_Algorithm.md)
 
 #### :white_check_mark: 네트워크
 
-- GET, POST 방식의 차이점
+- [GET, POST 방식의 차이점](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/HTTP%20%EB%A9%94%EC%84%9C%EB%93%9C%20-%20GET%2C%20POST.md)
 
 - [TCP 3-way-handshake](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/3-way%20handshake.md)
 
-- TCP 와 UDP 의 차이점
+- [TCP 와 UDP 의 차이점](https://github.com/heejucherish/CS-Study/blob/master/Ujin/TCP%20%EC%99%80%20UDP%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
 
 - [HTTP 와 HTTPS 의 차이점](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/HTTP%20%EC%99%80%20HTTPS%20%EC%B0%A8%EC%9D%B4%EC%A0%90.%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
+  - [HTTP 의 문제점들](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/network/HTTP%20%EC%99%80%20HTTPS%20%EC%B0%A8%EC%9D%B4%EC%A0%90.%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
   
-  - HTTP 의 문제점들
+- [DNS round robin 방식](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Round_robin_DNS.md)
 
-- DNS round robin 방식
+- [웹 통신의 큰 흐름](https://github.com/heejucherish/CS-Study/blob/master/heeju/%EC%9B%B9%ED%86%B5%EC%8B%A0%EC%9D%98_%ED%81%B0%ED%9D%90%EB%A6%84.md)
 
-- 웹 통신의 큰 흐름
-
-#### :white_check_mark: 컴퓨터 구조
+#### :white_check_mark: 컴퓨터 구조 -9월 25일 예정
 
 - 컴퓨터의 기본 구성
 
 - CPU와 메모리
 
-- 컴퓨터 성능 항상 기술
+- [컴퓨터 성능 항상 기술](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/os/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81%EA%B8%B0%EC%88%A0.md)
 
 - 병렬 처리
   
