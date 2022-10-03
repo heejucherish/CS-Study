@@ -156,7 +156,7 @@
   
   - FCFS
   
-  - SJF
+  - [SJF](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/os/os%2C%20sjf.md)
   
   - SRT
   
