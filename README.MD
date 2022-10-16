@@ -128,33 +128,33 @@
 
 #### :white_check_mark: 컴퓨터 구조 -9월 25일 예정
 
-- 컴퓨터의 기본 구성
+- [컴퓨터의 기본 구성](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/Computer_Architecture.md)
 
-- CPU와 메모리
+- [CPU와 메모리](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/CPU%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 
 - [컴퓨터 성능 항상 기술](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/os/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81%EA%B8%B0%EC%88%A0.md)
 
 - 병렬 처리
   
-  - 파이프라이닝
+  - [파이프라이닝](https://github.com/heejucherish/CS-Study/blob/master/heeju/%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B4%EB%8B%9D.md)
   
-  - 헤저드
+  - [헤저드](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/Pipeline%20Hazard.md)
 
 #### :white_check_mark: 운영체제
 
-- 프로세스와 스레드의 차이
+- [프로세스와 스레드의 차이](https://github.com/heejucherish/CS-Study/blob/master/Ujin/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
 - 스케줄러 종류
   
-  - 장기스케줄러
+  - [장기스케줄러](https://github.com/heejucherish/CS-Study/blob/master/HanKyul/long%20term%20scheduler.md)
   
-  - 단기스케줄러
+  - [단기스케줄러](https://github.com/heejucherish/CS-Study/blob/master/kochungcheon/%EB%8B%A8%EA%B8%B0%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%A7%81.md)
   
-  - 중기스케줄러
+  - [중기스케줄러](https://github.com/heejucherish/CS-Study/blob/master/Ujin/%EC%A4%91%EA%B8%B0%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC.md)
 
 - CPU 스케줄러
   
-  - FCFS
+  - [FCFS](https://github.com/heejucherish/CS-Study/blob/master/kimsixsue/OS_CPU_Scheduling_FCFS.md)
   
   - [SJF](https://github.com/heejucherish/CS-Study/blob/master/kyoungchang/os/os%2C%20sjf.md)
   
