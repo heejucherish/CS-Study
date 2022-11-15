@@ -13,7 +13,6 @@
 |  이름  |                            GitHub                            |
 | :----: | :----------------------------------------------------------: |
 | 권유진 |           [@Ujinkwon](https://github.com/Ujinkwon)           |
-| 김진욱 |          [@kimsixue](https://github.com/kimsixsue)           |
 | 고청천 | [@kochungcheon](https://github.com/heejucherish/CS-Study/commits?author=kochungcheon) |
 | 박희주 |       [@heejucherish](https://github.com/heejucherish)       |
 | 장한결 |           [@HKJang95](https://github.com/HKJang95)           |
@@ -23,7 +22,6 @@
 - 스터디 시간: 매주 일요일 10시 
 
 - **스터디 방법**
-  
   - 스터디 방법 변경 예정(10월 15일 회의 변경 초안)
     - 기존: 이론  -> 변경: 질문지에 대한 답변+ 작은 면접 형태+ 꼬리질문  
     - 1인당 15분 타이머 
@@ -33,12 +31,22 @@
       - https://github.com/SSAFY-CS-STUDY/Tech_interview/blob/main/02.database/README.md
       - https://gyoogle.dev/blog/interview/%EC%96%B8%EC%96%B4.html
   
-    - 10월: 운영체제 진행 예정 
-    - 11월: 컴퓨터 구조, 네트워크, 자료구조, 개발상식 파트(8,9 진행한 이론) 1주씩 질문지-답변 형식으로 스터디 진행 예정
-    - 12월: 데이터 베이스, 디자인 패턴 각각 2주씩 진행 예정  
+    - 10월: 운영체제 진행 완료
+    - **11월: 데이터 베이스 진행 중**
+    - 12월: 네트워크,자료구조, 디자인 패턴 진행 예정  
   
-  
-  
+
+
+
+| 과목명           | 질문 보기 | Collaboration |
+| ---------------- | --------- | ------------- |
+| Operating System |           |               |
+| Database         |           |               |
+| Network          |           |               |
+
+
+
+
 
 #### :book: 개발상식
 
